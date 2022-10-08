@@ -83,6 +83,9 @@ body {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.header__nav-color--active {
+  color: #2196f3;
+}
 .header__nav-color:hover, .header__nav-color:focus {
   color: #2196f3;
 }
@@ -98,9 +101,6 @@ body {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   border-radius: 2px;
-}
-.header__active {
-  color: #2196f3;
 }
 .header__contacts {
   display: -webkit-box;
@@ -216,7 +216,7 @@ body {
   line-height: 1.193;
   letter-spacing: 0.03em;
 }
-.footer__logo-color {
+.footer__logo__logo-color {
   color: #2196f3;
 }
 .footer__links {
@@ -444,22 +444,6 @@ body {
   fill: #212121;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal__input-icon--position-1 {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 15px;
-}
-.modal__input-icon--position-2 {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 15px;
-}
-.modal__input-icon--position-3 {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);

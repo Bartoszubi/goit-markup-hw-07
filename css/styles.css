@@ -120,7 +120,7 @@ body {
 .header__nav-color:focus {
   color: #2196f3;
 }
-.header__active {
+.header__nav-color--active {
   color: #2196f3;
 }
 .header__contacts {
